@@ -1,0 +1,47 @@
+.catalog_container{
+     width: 95%;
+     margin: 0px auto;
+     background-color: #fdfbfb;
+     
+   
+
+}
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 14px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;   
+     justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+.catalog img{
+    max-height: 15rem;
+    max-width: 15rem;
+}
+.catalog div.price{
+       color: #6e6c6c;
+       font-weight: 500;
+}
+
+.catalog div>i{
+    color: red;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.btn-group {
+    background-color: #04AA6D; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+
+  .price_container{
+      width: 40%;
+      margin: 0% auto;
+  }
